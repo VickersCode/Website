@@ -1,9 +1,25 @@
 * {
   background-color: #282c34;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: lavenderblush;
+  display: block;
 }
 
 .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color:lavender;
   text-decoration: none;
+  padding: 0 3rem;
 }
 
+.site-title {
+
+  font-size: 30px;
+}
